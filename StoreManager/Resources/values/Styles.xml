@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="DotsDarkTheme" parent="@android:style/Widget.ActionButton.Overflow" >
+    <item name="android:tint">@android:color/white</item>
+  </style>
+  <style name="MyTheme" parent="android:style/Theme.DeviceDefault.Light">
+    <item name="android:actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+  </style>
+</resources>

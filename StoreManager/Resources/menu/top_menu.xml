@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/menu_add"
+      android:icon="@drawable/add"
+      android:showAsAction="ifRoom"
+      android:title="Hinzufügen" />
+  <item
+       android:id="@+id/menu_remove"
+       android:icon="@drawable/remove"
+       android:showAsAction="ifRoom"
+       android:title="Löschen" />
+  <item
+       android:id="@+id/menu_settings"
+       android:icon="@drawable/print"
+       android:showAsAction="ifRoom"
+       android:title="Drucken" />
+</menu>
